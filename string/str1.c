@@ -1,24 +1,6 @@
 #include<stdio.h>
-/*int a()
-{
-	int i,j,n;
-	printf("Enter Number:");
-	scanf("%d",&n);
-	for(i=1;i<=n;i++)
-	{
-		for(j=n;j>=1;j--)
-		{
-			printf("%d ",j);
-		}
-	}
-}
-int main()
-{
-	a();
-}*/  
-#include<stdio.h>
 #include<string.h>
-int a()
+void main()
 {
     char str1[50], str2[50];
     int i,j,k=0;
@@ -36,8 +18,4 @@ int a()
     str2[j]='\0';
 
     printf("\nReverse Name: %s",str2);
-}
-int main()
-{
-	a();
 }
