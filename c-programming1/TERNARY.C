@@ -11,3 +11,4 @@ void main()
 	printf("largest No. is: %d",a>b? a>c? c>b ?a:c: c:b);
 	getch();
 }
+//rfthyfryh
